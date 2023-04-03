@@ -1,0 +1,8 @@
+penguins %>%
+  select(-species)
+clean_names(penguins)
+
+install.packages("Tmisc")
+library("Tmisc")
+data("quartet")
+view("quartet")

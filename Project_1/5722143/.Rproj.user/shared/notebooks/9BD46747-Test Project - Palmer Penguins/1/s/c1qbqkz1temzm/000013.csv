@@ -1,0 +1,6 @@
+"0",""
+"0","ggplot(data=na.omit(penguins))+"
+"0","  geom_point(mapping=aes(x=flipper_length_mm, y=body_mass_g, color=species, shape=species))+"
+"0","  labs(title=""Palmer Penguins: Body Mass vs. Flipper Length on Different Island"", subtitle=""Sample of Three Penguin Species"","
+"0","       caption=""Data collected by Dr. Kristen Gormen"")+"
+"0","  facet_wrap(~island)"
